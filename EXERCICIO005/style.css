@@ -2,3 +2,58 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    color: #15055a;
+    background-color: #bda8f513;
+    
+}
+
+/*
+Cor Original:
+color: #15055a;
+background-color: #bda8f513;
+
+Cor Manhã:
+color: #324e5e;
+background-color: #78c4f76e;
+
+Cor Tarde: 
+color: #381e15;
+background-color: #e2a704f6;
+
+Cor Noite:
+color: #f0efe8;
+background-color: #303030ef;
+*/
+
+form{
+    font-size: larger;
+    display: flex;
+    background-color: rgba(148, 148, 148, 0.247);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 50px 15px 10px 115px;
+    padding: 35px;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 7px 7px 5px 5px #0000003d;
+}
+
+#foto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 50px 15px 10px 115px;
+    padding: 5px;
+    width: 500px;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.144);
+    box-shadow: 7px 7px 5px 5px #0000003d;
+    background-color: #fff;
+}

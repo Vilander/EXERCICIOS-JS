@@ -10,9 +10,21 @@
 
 <body>
     <h1>Exercício 005</h1>
+    <blockquote><em>"Eu sempre estou certo, até estar errado! - John Doe"</em></blockquote>
     <p><strong>05.</strong> Verificar se é dia, tarde ou noite e mostrar uma mensagem personalizada.</p>
     <hr>
-    
+    <form>
+        <label>Escolha um período:</label>
+        <select id="periodo" onchange="fnVerificarPeriodo()">
+            <option>Selecione uma opção</option>
+            <option value="d">Manhã</option>
+            <option value="t">Tarde</option>
+            <option value="n">Noite</option>
+        </select>
+
+        <h3>O período atual é: <span id="resposta"></span></h3>
+    </form>
+    <img src="./boriginal.jpg" alt="foto campo de flores" id="foto">
 
 
 
