@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 008</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exercício 008</h1>
+        <blockquote><em>"Amigo estou aqui" - Woody"</em></blockquote>
+    </header>
+    <p><strong>08.</strong> Efetuar uma das 4 operações matemáticas básicas.</p>
+    <hr>
+    
+    <section>
+        <form>
+            <label>Valor 1: </label>
+            <input type="number" name="valor1" id="valor1"><br>
+            <label>valor 2: </label>
+            <input type="number" name="valor2" id="valor2"><br>
+            <div id="operadores">
+                <label>Operação: </label>
+                <input type="radio" name="operacao" id="adicao" checked>+
+                <input type="radio" name="operacao" id="subtracao">-
+                <input type="radio" name="operacao" id="multiplicacao">x
+                <input type="radio" name="operacao" id="divisao">÷
+            </div>
+            <br>
+            <button type="button" onclick="fnCalcular()">Calcular</button>
+            <h3>Resultado: <span id="res"></span></h3>
+        </form>
+    </section>
+    
+    <footer>&copy; Vilander Costa</footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
