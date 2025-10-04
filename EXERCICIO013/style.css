@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #f4e1f8;
+    background-color: #e9f5f742;
     font: normal 15pt helvetica;
     
 }
@@ -13,22 +13,22 @@ header{
 }
 
 header h1{
-    color: #751075;
+    color: #033966;
     letter-spacing: 2px;
-    text-shadow: 1px 2px 5px #0000003a;
+    
 }
 
 header h1:hover{
-    color: #fff;
+    color: #adaaaa;
     cursor: pointer;
 }
 
 blockquote{
-    color: #66034d;
+    color: #033966;
 }
 
 h2{
-    color: #66034d;
+    color: #033966;
     text-align: center;
 }
 
@@ -39,13 +39,13 @@ p{
 
 footer{
     margin-top: 50px;
-    color: #838282;
+    color: #424246;
     text-align: center;
     font-style: italic;
     font-size: small;
 }
 
-input{
+/* input{
     border: 2px solid #ececec;
     border-radius: 2px; 
     margin: 3px;
@@ -92,16 +92,7 @@ section{
     margin: auto;
     box-shadow: 5px 5px 10px #0000004d;
     text-align: center;
-}
+} */
 
-#painel_resultado{
-    background: #fff;
-    border-radius: 10px;
-    padding: 25px;
-    width: 500px;
-    margin: auto;
-    box-shadow: 5px 5px 10px #0000004d;
-    text-align: center;
-    display: none;
-}
+
 
