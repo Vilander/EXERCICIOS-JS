@@ -1,0 +1,6 @@
+.cartao{
+    transition: transform 0.5s ease;
+}
+.cartao:hover{
+    transform: translateY(-20px);
+}
