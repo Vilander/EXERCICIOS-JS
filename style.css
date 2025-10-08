@@ -4,3 +4,51 @@
 .cartao:hover{
     transform: translateY(-20px);
 }
+
+.c2{
+    background-color: rgb(224, 179, 118) !important;
+}
+
+.c3{
+    background-color: rgb(118, 224, 144) !important;
+}
+
+.c4{
+    background-color: rgb(215, 118, 224) !important;
+}
+
+.c5{
+    background-color: rgb(222, 224, 118) !important;
+}
+
+.c6{
+    background-color: rgb(224, 118, 153) !important;
+}
+
+.c7{
+    background-color: rgb(139, 88, 15) !important;
+}
+
+.c8{
+    background-color: rgb(8, 3, 73) !important;
+}
+
+.c9{
+    background-color: rgb(7, 136, 3) !important;
+}
+
+.c10{
+    background-color: rgb(75, 0, 62) !important;
+}
+
+.c11{
+    background-color: rgb(255, 0, 234) !important;
+}
+
+.c12{
+    background-color: rgb(114, 114, 114) !important;
+}
+
+.c13{
+    background-color: rgb(4, 105, 145) !important;
+}
